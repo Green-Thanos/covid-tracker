@@ -9,7 +9,7 @@ import contactme from './Pages/contactme';
 
 const App = () => {
   return (
-    <Router basename='covid-tracker'>
+    <Router>
       <NavBar />
       <Switch>
         <Route path="/" exact component={Home} />
