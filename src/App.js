@@ -9,7 +9,7 @@ import contactme from './Pages/contactme';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='#'>
       <NavBar />
       <Switch>
         <Route path="/" exact component={Home} />
