@@ -1,0 +1,48 @@
+/* Style for Custom Tooltip */
+div.tooltip { 
+	align-items: center;  
+ 	position: absolute;           
+	text-align: center;           
+	width: 60px;                  
+	height: 28px;                          
+	font: 12px sans-serif;        
+	background: white;   
+	border: 0px;      
+	border-radius: 8px;           
+	pointer-events: none; 
+	justify-content: center;        
+}
+        
+/* Legend Position Style  */
+.legend {
+	position:absolute;
+	left:800px;
+	top:350px;
+}
+
+path {
+    pointer-events: all;
+  }
+  path:hover {
+    opacity: 0.50;
+    cursor: pointer;
+  }
+  
+  .container {
+	position: relative;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+  }
+  
+  @media only screen and (max-width: 770px) {
+	.container {
+	  margin: auto;
+	}
+  
+	.image {
+	  width: 100%;
+	}
+  }

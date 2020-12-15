@@ -1,0 +1,22 @@
+.rootClass {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-image: url('https://www.washingtonpost.com/resizer/kMeDkr4eRsTm1wUw05oeqEAt85s=/1800x0/filters:quality(100)/arc-anglerfish-washpost-prod-washpost/public/6NH5ZEY4MRBKLLM65HNCKVK45U.jpg?imwidth=2048');
+}
+.subtitle {
+    line-height: 20px;
+}
+.covid-image {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+}
+.covid-image:hover img { 
+    transform: scale(1.5); 
+} 
