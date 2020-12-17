@@ -27,7 +27,7 @@ class charts extends React.Component {
 
     return (
       <div className={styles.container}>
-        <img className={styles.image} src={''} alt=' ' />
+       {/* <img className={styles.image} src={''} alt=' ' /> */}
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} /> 
