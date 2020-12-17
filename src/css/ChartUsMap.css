@@ -1,4 +1,4 @@
-/* Style for Custom Tooltip */
+/* Style for Custom Tooltip 
 div.tooltip { 
 	align-items: center;  
  	position: absolute;           
@@ -13,13 +13,13 @@ div.tooltip {
 	justify-content: center;        
 }
         
-/* Legend Position Style  */
+ Legend Position Style  
 .legend {
 	position:absolute;
 	left:800px;
 	top:350px;
 }
-
+*/
 path {
     pointer-events: all;
   }
@@ -29,12 +29,14 @@ path {
   }
   
   .container {
-	position: relative;
+	position: absolute;
 	width: 50%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
   }
   
   @media only screen and (max-width: 770px) {
