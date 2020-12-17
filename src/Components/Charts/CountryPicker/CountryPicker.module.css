@@ -1,4 +1,9 @@
 .formControl {
-  width: 30%;
   margin-bottom: 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
